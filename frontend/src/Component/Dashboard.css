@@ -1,0 +1,27 @@
+/* Dashboard.css */
+
+/* Styles for the dashboard container */
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the table */
+  .table-container {
+    width: 50%;
+    margin: auto;
+    color: white;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .table-container {
+      width: 80%; /* Adjust the width as per your needs */
+    }
+  }
+  
