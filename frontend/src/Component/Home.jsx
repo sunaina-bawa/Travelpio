@@ -40,7 +40,7 @@ export default function Home() {
           }}
         >
           <Link
-            to="/form"
+            to="/"
             style={{
               color: "blue",
               fontSize: "15px",
