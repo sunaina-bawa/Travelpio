@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Home.css";
 export default function Home() {
   return (
     <div style={{ width: "50%", margin: "auto" }}>
@@ -9,7 +10,7 @@ export default function Home() {
           fontSize: "40px",
           color: "black",
           padding: "10px",
-          width: "50%",
+          width: "100%",
           margin: "auto",
           textAlign: "center",
           borderRadius: "20px",
@@ -35,8 +36,7 @@ export default function Home() {
             borderRadius: "10px",
             border: "1px solid black",
             padding: "10px",
-
-            width: "30%",
+            width: "100%",
           }}
         >
           <Link
@@ -57,7 +57,7 @@ export default function Home() {
             border: "1px solid black",
             padding: "10px",
 
-            width: "40%",
+            width: "100%",
           }}
         >
           <Link

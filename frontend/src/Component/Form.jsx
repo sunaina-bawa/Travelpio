@@ -155,11 +155,10 @@ const Form = () => {
           <p
             style={{
               width: "100%",
-              height: "70px",
+              height: "20%",
               color: "white",
               textAlign: "center",
               borderRadius: "20px",
-
               background: "rgb(55, 55, 108)",
             }}
           >
