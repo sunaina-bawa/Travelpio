@@ -29,7 +29,7 @@ const Form = () => {
     formData.total = calculateNetBudget();
     setFromStatus("...loading");
     // Send form data to backend API endpoint
-    fetch("http://localhost:8800/traveller/register", {
+    fetch("https://travelopia-29rz.onrender.com/traveller/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -80,10 +80,10 @@ const Form = () => {
   return (
     <div>
       <Home />
-      <h1 style={{ color: "white", textAlign: "center", fontSize: "40px" }}>
+      <h1 style={{ color: "black", textAlign: "center", fontSize: "40px" }}>
         Submission Form
       </h1>
-      <p style={{ color: "white", textAlign: "center" }}>
+      <p style={{ color: "black", textAlign: "center" }}>
         Contact us to plan your next journey
       </p>
 
@@ -155,12 +155,11 @@ const Form = () => {
           <p
             style={{
               width: "100%",
-              height: "50px",
+              height: "70px",
               color: "white",
               textAlign: "center",
               borderRadius: "20px",
 
-              padding: "3px",
               background: "rgb(55, 55, 108)",
             }}
           >
@@ -169,10 +168,10 @@ const Form = () => {
           <button
             type="submit"
             style={{
-              color: "white",
+              color: "black",
               borderRadius: "20px",
               height: "50px",
-              background: "blue",
+              background: "pink",
               width: "25%",
               border: "none",
               padding: "20px",

@@ -1,6 +1,8 @@
 body{
-  background-color: rgb(45, 45, 111);
-  
+  /* background-color: rgb(154, 184, 235); */
+  background-image: url("https://res.cloudinary.com/enchanting/q_70,f_auto,w_610,h_400,c_fill,g_face/travelopia-web/2021/09/Santorini.jpg");
+  background-size:cover;
+  background-attachment: fixed;
   
 }
 

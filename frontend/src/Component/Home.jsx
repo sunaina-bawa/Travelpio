@@ -5,9 +5,9 @@ export default function Home() {
     <div style={{ width: "50%", margin: "auto" }}>
       <h1
         style={{
-          backgroundColor: "tomato",
+          backgroundColor: "pink",
           fontSize: "40px",
-          color: "white",
+          color: "black",
           padding: "10px",
           width: "50%",
           margin: "auto",
@@ -16,7 +16,7 @@ export default function Home() {
           marginTop: "40px",
         }}
       >
-        Travelpio
+        Travelopia
       </h1>
       <div
         style={{
@@ -31,9 +31,9 @@ export default function Home() {
       >
         <button
           style={{
-            background: "none",
+            background: "black",
             borderRadius: "10px",
-            border: "1px solid blue",
+            border: "1px solid black",
             padding: "10px",
 
             width: "30%",
@@ -42,7 +42,7 @@ export default function Home() {
           <Link
             to="/"
             style={{
-              color: "blue",
+              color: "white",
               fontSize: "15px",
               textDecorationLine: "none",
             }}
@@ -52,9 +52,9 @@ export default function Home() {
         </button>
         <button
           style={{
-            background: "none",
+            background: "black",
             borderRadius: "10px",
-            border: "1px solid blue",
+            border: "1px solid black",
             padding: "10px",
 
             width: "40%",
@@ -63,7 +63,7 @@ export default function Home() {
           <Link
             to="/dashboard"
             style={{
-              color: "blue",
+              color: "white",
               fontSize: "15px",
               textDecorationLine: "none",
             }}

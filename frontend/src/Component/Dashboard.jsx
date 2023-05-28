@@ -15,7 +15,7 @@ const Dashboard = () => {
 
   const fetchSubmissions = () => {
     // Fetch existing form submissions from backend API endpoint
-    fetch("http://localhost:8800/traveller/getData")
+    fetch("https://travelopia-29rz.onrender.com/traveller/getData")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
@@ -69,7 +69,7 @@ const Dashboard = () => {
         style={{
           width: "10%",
           margin: "auto",
-          color: "white",
+          color: "black",
           marginTop: "20px",
         }}
       >
@@ -87,8 +87,8 @@ const Dashboard = () => {
           <button
             onClick={handlePrevious}
             style={{
-              background: "blue",
-              color: "white",
+              background: "pink",
+              color: "black",
               padding: "10px",
               borderRadius: "10px",
               border: "none",
@@ -127,8 +127,8 @@ const Dashboard = () => {
           <button
             onClick={handleNext}
             style={{
-              background: "green",
-              color: "white",
+              background: "pink",
+              color: "black",
               padding: "10px",
               borderRadius: "10px",
               border: "none",
@@ -146,7 +146,15 @@ const Dashboard = () => {
       ) : (
         <table
           border="2px solid red"
-          style={{ width: "50%", margin: "auto", color: "white" }}
+          style={{
+            width: "70%",
+            margin: "auto",
+            color: "white",
+            marginTop: "10px",
+            background: "black",
+            textAlign: "center",
+            padding: "10px",
+          }}
         >
           <thead>
             <tr>
