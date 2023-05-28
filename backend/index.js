@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const path = require("path");
 const travellerRouter = require("./routes/travellers.routes");
 const mongoose = require("mongoose");
 const connectDatabase = require("./config/db");
@@ -19,7 +18,7 @@ app.use(function (req, res, next) {
   );
   next();
 });
-app.use(express.static(path.join(__dirname, "..", "frontend", "build")));
+
 app.use("/traveller", travellerRouter);
 
 connectDatabase();

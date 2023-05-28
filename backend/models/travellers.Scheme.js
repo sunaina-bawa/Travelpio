@@ -1,7 +1,6 @@
 const { Schema, model } = require("mongoose");
 
-//Schema for registering users
-//Have added enum in place for better code readability
+
 
 const TravellerSchema = new Schema({
   name: { type: String, required: true },

@@ -6,7 +6,7 @@ const {
 
 const app = express.Router();
 
-//Route for registering new user.
+//Route for register new user.
 app.post("/register", registerTravellers);
 
 // Route for retrieving data from database.
